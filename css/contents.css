@@ -1,0 +1,315 @@
+.fishing-contents{
+  width:100%;
+  height:1600px;
+  position:relative;
+}
+
+.fishing-contents a:hover{
+  color:red;
+}
+
+.inner{
+  width:1300px;
+}
+
+.fadein {
+  opacity : 0;
+  transform : translate(0, 100px);
+  transition : all 1s;
+}
+
+.fadein.active{
+  opacity : 1;
+  transform : translate(0, 0);
+}
+
+.basuturi-contents{
+height:500px;
+margin-bottom:50px;
+position:relative;
+}
+
+.basuturi-contents img{
+  height:400px;
+  width:400px;
+position: absolute;
+top:0;
+left:5%;
+}
+
+.bass-text{
+margin-left:0px;
+  float:left;
+  width:800px;
+  position: absolute;
+  top:0;
+  left:40%;
+}
+
+.bass-text h2{
+  font-size:70px;
+  transform: rotate(10deg);
+  text-align: center;
+    font-family: 'Mv Boli',serif;
+}
+
+.bass-text p{
+  font-size:25px;
+  background-color:rgb(204,204,204,0.4);
+  padding:10px 20px;
+  text-align: center;
+  font-weight:bold;
+  font-family: 'ＭＳ Ｐ明朝','MS PMincho',serif;
+}
+
+.turibox1{
+  width:800px;
+  height:400px;
+  background-image: url("../image/publicdomainq-0014104hsr.jpg");
+  background-size: cover;
+  background-position: 0 60%;
+  z-index:-3;
+  opacity:0.4;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: absolute;
+  top:0%;
+  left:0;
+}
+
+.masuturi-contents{
+  height:500px;
+position: relative;
+}
+
+.masuturi-contents img{
+  height:400px;
+  width:400px;
+position: absolute;
+top:5%;
+right:0%;
+}
+
+.masu-text{
+position: absolute;
+top:7%;
+left:3%;
+width:800px;
+}
+
+.masu-text h2{
+  font-size:40px;
+  text-align: center;
+  line-height: 42px;
+  margin-bottom:35px;
+  transform: rotate(-10deg);
+    font-family: 'Mv Boli',serif;
+}
+
+.masu-text p{
+  font-size:26px;
+  background-color:rgb(204,204,204,0.4);
+  padding:10px 30px;
+  text-align: center;
+  font-weight:bold;
+  font-family: 'ＭＳ Ｐ明朝','MS PMincho',serif;
+}
+
+.umituri-contents{
+    height:500px;
+    position:relative;
+}
+
+.umituri-contents img{
+  height:400px;
+  width:400px;
+  position:absolute;
+  top:17%;
+  left:5%;
+}
+
+.turibox2{
+  width:800px;
+  height:400px;
+  background-image: url("../image/publicdomainq-0014104hsr.jpg");
+  background-size: cover;
+  background-position: 0 60%;
+  z-index:-3;
+  opacity:0.4;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: absolute;
+  top:-5%;
+  left:0;
+}
+
+.umi-text{
+  width:800px;
+  position:absolute;
+  top:17%;
+  left:40%;
+}
+
+.umi-text h2{
+  font-size:60px;
+  text-align: center;
+  transform: rotate(10deg);
+    font-family: 'Mv Boli',serif;
+}
+
+.umi-text p{
+  font-size:24px;
+  background-color:rgb(204,204,204,0.4);
+  padding:10px 30px;
+  text-align: center;
+  font-weight:bold;
+  font-family: 'ＭＳ Ｐ明朝','MS PMincho',serif;
+}
+
+.turibox3{
+  width:800px;
+  height:400px;
+  background-image: url("../image/publicdomainq-0014104hsr.jpg");
+  background-size: cover;
+  background-position: 0 60%;
+  z-index:-3;
+  opacity:0.4;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+
+/*コンテンツ　スマホ*/
+@media screen and (max-width:798px){
+  .fishing-contents{
+    width:100%;
+    height:100%;
+    position:relative;
+  }
+
+
+  .inner{
+    width:100%;
+  }
+
+
+/*バス釣りコンテンツ*/
+  .basuturi-contents{
+  height:100%;
+  margin-bottom:80px;
+  position: static;
+  }
+
+  .basuturi-contents img{
+    height:400px;
+    width:100%;
+  position:static;
+  display: block;
+  }
+
+  .bass-text{
+    margin:50px 0;
+    width:100%;
+    position:relative;
+    top:0;
+    left:0;
+  }
+
+  .bass-text h2{
+    font-size:50px;
+  }
+
+  .bass-text p{
+    font-size:18px;
+  }
+
+  .turibox1{
+    width:100%;
+    height:200px;
+    position: absolute;
+  top:32%;
+    left:0;
+  }
+/*バス釣りコンテンツ　ここまで*/
+
+
+/*マス釣り　コンテンツ*/
+  .masuturi-contents{
+    height:100%;
+  }
+
+  .masuturi-contents img{
+    height:400px;
+    width:100%;
+  position:static;
+  display: block;
+  }
+
+  .masu-text{
+  width:100%;
+  position: relative;
+  top:0;
+  left:0;
+  margin: 50px 0;
+  }
+
+  .masu-text h2{
+    font-size:40px;
+  }
+
+  .masu-text p{
+    font-size:18px;
+  }
+
+
+    .turibox2{
+      width:100%;
+      height:200px;
+      position: absolute;
+      top:50%;
+      left:0;
+    }
+
+/*マス釣りコンテンツ　ここまで*/
+
+/*海釣りコンテンツ*/
+  .umituri-contents{
+      height:100%;
+      position:static;
+  }
+
+  .umituri-contents img{
+    height:400px;
+    width:100%;
+    position:static;
+  }
+
+  .umi-text{
+    width:100%;
+    position:relative;
+    top:0;
+    left:0;
+    margin: 50px 0;
+  }
+
+  .umi-text h2{
+    font-size:60px;
+  }
+
+  .umi-text p{
+    font-size:16px;
+  }
+
+
+    .turibox3{
+      width:100%;
+      height:200px;
+      position: absolute;
+      top:38%;
+      left:0;
+    }
+    /*海釣りコンテンツ　ここまで*/
+}

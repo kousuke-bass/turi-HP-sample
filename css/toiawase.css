@@ -1,0 +1,289 @@
+.form{
+  background-image: url("../image/cf126d6d54f4aa43ff17d2e7126966d6_s.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  height:900px;
+  width:100%;
+  padding-top:100px;
+  padding-left:0px;
+}
+
+.form dl{
+  display:flex;
+  justify-content: center;
+  padding:20px 0;
+  border-bottom:1px dotted #676767;
+
+}
+
+.form dl:first-of-type{
+  border-top:1px dotted #676767;}
+
+.form dt{
+  width: 200px;
+box-sizing: border-box;
+padding: 10px 10px 10px 0px ;
+line-height: 1em;
+color:#ffffff;
+background-color:#000000;
+
+text-align: center;
+}
+
+.form dd {
+  width: calc(100% - 300px);
+  box-sizing: border-box;
+}
+
+ .name dd span{
+  color:#ffffff;
+  background-color:#000000;
+  padding:10px 10px 10px 10px ;
+}
+
+.furigana dd span{
+ color:#ffffff;
+ background-color:#000000;
+ padding:10px 10px 10px 10px ;
+}
+
+.form dd input,
+.form dd select,
+.form dd textarea {
+  font-size: 1rem;
+  color: #777;
+  border: 1px solid #555;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+.form dd input,
+.form dd select {
+  line-height: 20px;
+  height: 30px;
+  padding: 0 20px;
+}
+.form dd textarea {
+  height: 140px;
+  line-height: 2em;
+  padding: 20px;
+}
+.form dl.name dd {
+  padding: 0 0 0 25px;
+}
+.form dl.name dd span {
+  margin: 0 20px 0 0;
+}
+.form dl.name dd input {
+  width: 350px;
+}
+.form dl.name dd input:first-of-type {
+  margin: 0 50px 0 0;
+}
+.form dl.furigana dd {
+  padding: 0 0 0 10px;
+}
+.form dl.furigana dd span {
+  margin: 0 20px 0 0;
+}
+.form dl.furigana dd input {
+  width: 350px;
+}
+.form dl.furigana dd input:first-of-type {
+  margin: 0 30px 0 0;
+}
+.form dl.mail dd input {
+  width: calc(100% - 20px);
+}
+.form dl.tel dd input {
+  width: 200px;
+}
+.form dl.tel dd span {
+  margin: 0 20px;
+}
+.form dl.zip dd input {
+  width: 200px;
+}
+.form dl.zip dd span {
+  margin: 0 20px;
+}
+.form dl.pref dd select {
+  width: 200px;
+}
+.form dl.address dd input {
+  width: calc(100% - 20px);
+}
+.form dl.multi-text dd textarea {
+  width: calc(100% - 20px);
+}
+.form .form-button {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto 0 auto;
+}
+.form .form-button input {
+  display: block;
+  width: 100px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: #353535;
+  border: 1px solid #353535;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.form .form-button input:hover {
+  background-color: transparent;
+  color: #444;
+  transition: .3s ease all;
+}
+
+.name dt span{
+  color:red;
+  margin-left:80px;
+  padding:5px 10px;
+  background-color: #DDDDDD;
+}
+
+.furigana dt span{
+  color:red;
+  margin-left:50px;
+  padding:5px 10px;
+  background-color: #DDDDDD;
+}
+
+/*スマホ　問い合わせ*/
+@media screen and (max-width:768px){
+  .form{
+    height:100%;
+    width:100%;
+    padding-top:50px;
+    display: inline-block;
+  }
+
+  .form dl{
+    display:flex;
+    justify-content:flex-start;
+    padding:20px 0;
+    border-bottom:1px dotted #676767;
+
+  }
+
+  .form dt{
+    width:140px;
+    height:30px;
+  box-sizing:border-box;
+  padding:5px 0;
+  line-height: 0.5em;
+  color:#ffffff;
+  background-color:#000000;
+  margin-right:20px;
+  text-align: center;
+  }
+
+
+   .name dd span{
+    color:#ffffff;
+    background-color:#000000;
+    padding:5px 5px 5px 5px ;
+  }
+
+  .furigana dd span{
+   color:#ffffff;
+   background-color:#000000;
+   padding:5px 5px 5px 5px ;
+  }
+
+  .form dd input,
+  .form dd select,
+  .form dd textarea {
+    font-size: 1rem;
+    color: #777;
+    border: 1px solid #555;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+  }
+  .form dd input,
+  .form dd select {
+    line-height: 20px;
+    height: 30px;
+    padding: 0 20px;
+  }
+  .form dd textarea {
+    height: 140px;
+    line-height: 2em;
+    padding: 20px;
+  }
+  .form dl.name dd {
+    padding: 0 0 0 10px;
+  }
+  .form dl.name dd span {
+    margin: 0 10px 0 0;
+  }
+  .form dl.name dd input {
+    width: 200px;
+  }
+  .form dl.name dd input:first-of-type {
+    margin: 0 50px 0 0;
+  }
+
+
+  .form dl.furigana dd {
+    padding: 0 0 0 10px;
+  }
+  .form dl.furigana dd span {
+    margin: 0 20px 0 0;
+  }
+  .form dl.furigana dd input {
+    width: 200px;
+}
+
+.form dl.mail dd input {
+  width: 200px;
+}
+.form dl.tel dd input {
+  width: 200px;
+}
+.form dl.tel dd span {
+  margin: 0 20px;
+}
+.form dl.zip dd input {
+  width: 200px;
+}
+.form dl.zip dd span {
+  margin: 0 20px;
+}
+.form dl.pref dd select {
+  width: 200px;
+}
+.form dl.address dd input {
+  width:200px;
+}
+.form dl.multi-text dd textarea {
+  width:200px;
+}
+
+
+.name dt span{
+  color:red;
+  margin-left:5px;
+  padding:2px 5px;
+  background-color: #DDDDDD;
+}
+
+.furigana dt span{
+  color:red;
+  margin-left:10px;
+  padding:5px 10px;
+  background-color: #DDDDDD;
+}
+
+.content-wrapper{
+  width: 100%;
+margin:30px 0px;
+}
+
+
+}

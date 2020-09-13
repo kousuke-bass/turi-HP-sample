@@ -1,0 +1,103 @@
+.profill{
+  margin-bottom:50px;
+  position:relative;
+  height:500px;
+}
+
+table.content{
+  width:60%;
+  border-top:1px solid #000000;
+  text-align: center;
+  position: absolute;
+  top:70px;
+}
+
+.content th{
+  background-color:#e8e7e7;
+  box-sizing: border-box;
+  padding:20px;
+  width:40%;
+  line-height:1.5em;
+  text-align:center;
+  font-family: 'Kaiti TC',sans-serif;
+  font-weight: bold;
+}
+
+.content th:first-of-type{
+ border-bottom:1px solid #000000;
+}
+
+.content td{
+  box-sizing:border-box;
+  padding:20px;
+ border-bottom:1px solid #000000;
+  line-height:1.5em;
+font-size:15px;
+font-family: 'Osaka',sans-serif;
+}
+
+.content tbody{
+  width:50%;
+}
+
+.profill-gazou{
+text-align: right;
+padding-right: 80px;
+padding-top: 30px;
+opacity: 0;
+
+}
+
+.profill-gazou img{
+  width:400px;
+  height:400px;
+  object-fit:cover;
+
+}
+
+.profill-gazou.active{
+  opacity: 1;
+  transition: all 0.4s;
+}
+
+@media screen and (max-width:768px){
+  .profill{
+    margin-bottom:30px;
+    position:relative;
+    height:100%;
+  }
+
+
+ table.content{
+  width:100%;
+  position:static;
+  margin-top:30px;
+}
+
+ table.content th{
+    background-color: #e8e7e7;
+    box-sizing: border-box;
+    padding:20px;
+    width:35%;
+    line-height:1em;
+    text-align:center;
+  }
+
+
+ table .content td{
+    padding:5px;
+    line-height:1em;
+  }
+
+  table .content tbody{
+    width:30%;
+  }
+
+  .profill-gazou{
+   display:block;
+   text-align:center;
+   padding:0 0;
+   margin-bottom:80px;
+   }
+
+}
