@@ -61,10 +61,12 @@ $(function(){
     $('.sns').slideDown();
     $('.click2').fadeOut();
     $('#title').fadeOut();
+    $('.click1').fadeOut();
   $('.sns').on('click',function(){
     $('.sns').slideUp();
         $('.click2').fadeIn();
           $('#title').fadeIn();
+     $('.click1').fadeIn();
   });
   });
 });
