@@ -129,7 +129,7 @@ font-weight: bold;
     width:100%;
    height:100%;
     position:fixed;
-    top:0;
+    top:-10%;
     left:-120%;
     z-index:2;
     background:rgb(249, 252, 255,0.6);
