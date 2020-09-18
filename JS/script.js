@@ -42,34 +42,34 @@ $(function(){
 
 });
 
-$(function(){
+
   $('.click1').on('click',function(){
     $('.naiyou').slideDown();
-    $('.click1').fadeOut();
+    $('.click1,.click2,.click3').fadeOut();
     $('#title').fadeOut();
+    
   $('.naiyou').on('click',function(){
     $('.naiyou').slideUp();
-        $('.click1').fadeIn();
+        $('.click1,.click2,.click3').fadeIn();
           $('#title').fadeIn();
   });
   });
-});
 
 
-$(function(){
+
+
   $('.click2').on('click',function(){
     $('.sns').slideDown();
-    $('.click2').fadeOut();
+    $'.click1,.click2,.click3').fadeOut();
     $('#title').fadeOut();
-    $('.click1').fadeOut();
+
   $('.sns').on('click',function(){
     $('.sns').slideUp();
-        $('.click2').fadeIn();
+        $('.click1,.click2,.click3').fadeIn();
           $('#title').fadeIn();
-     $('.click1').fadeIn();
   });
   });
-});
+
 
 $(function() {
     var $allMsg = $('#title');
