@@ -60,7 +60,7 @@ $(function(){
 
   $('.click2').on('click',function(){
     $('.sns').slideDown();
-    $'.click1,.click2,.click3').fadeOut();
+    $('.click1,.click2,.click3').fadeOut();
     $('#title').fadeOut();
 
   $('.sns').on('click',function(){
