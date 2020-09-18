@@ -43,6 +43,7 @@ $(function(){
 });
 
 
+$(function(){
   $('.click1').on('click',function(){
     $('.naiyou').slideDown();
     $('.click1,.click2,.click3').fadeOut();
@@ -54,10 +55,11 @@ $(function(){
           $('#title').fadeIn();
   });
   });
+});
 
 
 
-
+$(function(){
   $('.click2').on('click',function(){
     $('.sns').slideDown();
     $('.click1,.click2,.click3').fadeOut();
@@ -69,7 +71,7 @@ $(function(){
           $('#title').fadeIn();
   });
   });
-
+});
 
 $(function() {
     var $allMsg = $('#title');
