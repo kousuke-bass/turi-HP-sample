@@ -182,8 +182,8 @@ header a{
 
   .hamburger {
    position:absolute;
-   right:5%;
-   top:0%;
+   right:10%;
+   top:8%;
    z-index: 100;
    width:20px;
    height:20px;
@@ -445,7 +445,7 @@ cursor :pointer;}
 /* スマホ　メイン */
 @media screen and (max-width:768px){
   .mainvisual {
-    height:500px;
+    height:600px;
     width:100%;
     background-position:center;
     background-size:contain;
@@ -558,6 +558,10 @@ cursor :pointer;}
 
 /*スマホ　フッター*/
 @media screen and (max-width:768px){
+  footer{
+    height:50px;
+      text-align: center;
+  }
 
   footer .high {
     padding:10px 0;
@@ -565,14 +569,19 @@ cursor :pointer;}
   }
 
   .high h2{
-    font-size:15px;
+    font-size:20px;
     margin: 0 0;
     text-align: center;
   }
 
   .footer ul li{
-    margin-right:20px;
-    font-size:5px;
+    margin-right:10px;
+    font-size:11px;
+    font-weight: bold;
+  }
+
+  .footer .copyloght{
+    height:20px;
   }
 }
 
@@ -606,9 +615,12 @@ line-height:300px;
   }
 
   .subvisual h1{
+   text-align:center;
     font-size:2rem;
+    color:rgb(204,0,0);
   line-height:100px;
-  font-family: 'Gill Sans',sans-serif;
+    font-weight:normal;
+    font-family:'Impact',sans-serif;
   }
 }
 
@@ -618,8 +630,8 @@ line-height:300px;
 width: 100px;
 height: 40px;
 position: fixed;
-right: 0;
-bottom: 10px;
+right: 10px;
+bottom:15px;
 background: #007ab5;
 opacity: 0.6;
 }
@@ -638,7 +650,7 @@ font-weight: bold;
 color: #fff;
 position: absolute;
 top: 10px;
-bottom: 0;
+bottom:0;
 right: 0;
 left: 0;
 margin: auto;
