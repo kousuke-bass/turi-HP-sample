@@ -183,7 +183,7 @@ header a{
   .hamburger {
    position:absolute;
    right:10%;
-   top:8%;
+   top:0;
    z-index: 100;
    width:20px;
    height:20px;
@@ -194,7 +194,7 @@ header a{
 
   .nav-button,
   .nav-button span {
-   display: inline-block;
+   display:block;
   　　}
 
   .nav-button {
@@ -448,7 +448,7 @@ cursor :pointer;}
     height:600px;
     width:100%;
     background-position:center;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
   }
 
